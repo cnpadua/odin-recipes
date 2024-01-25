@@ -27,7 +27,7 @@ h2 {
 
 img {
     display: block;
-    height: 200px;
+    /* height: 200px; */
     margin: 0 auto;
 }
 
@@ -49,10 +49,6 @@ p {
     width: 700px;
 }
 
-.flag-img {
-    height: 200px;
-}
-
 .recipe-links {
     text-align: center;
     color: white;
@@ -67,6 +63,20 @@ p {
     margin: 8px auto;
 }
 
+.flag-img {
+    max-height: 200px;
+    width: auto;
+}
+
 .sinigang-img {
-    height: 300px;
+    max-height: 300px;
+    width: auto;
+}
+
+.adobo-img {
+    max-height: 400px;
+    width: auto;
+   /*  height: 586px;
+    width: 600px;
+ */
 }
