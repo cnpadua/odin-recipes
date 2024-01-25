@@ -27,7 +27,6 @@ h2 {
 
 img {
     display: block;
-    /* height: 200px; */
     margin: 0 auto;
 }
 
@@ -76,7 +75,9 @@ p {
 .adobo-img {
     max-height: 400px;
     width: auto;
-   /*  height: 586px;
-    width: 600px;
- */
+}
+
+.tortang-img {
+    max-width: 60%;
+    height: auto;
 }
