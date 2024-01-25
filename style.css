@@ -12,10 +12,28 @@ div {
 
 h1 {
     text-align: center;
+    text-decoration: underline overline white;
+    margin-bottom: 8px;
+    margin-top: 0px;
+    color: white;
 }
 
 h2 {
+    text-align: center;
+    text-decoration: underline white;
+    color: white;
     margin: 0 auto;
+}
+
+img {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .card {
@@ -23,20 +41,16 @@ h2 {
     border: 20px;
     border-color: paleturquoise;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
     width: 500px;
 }
 
-.homepage-title {
-    color: white;
-    margin-top: 0;
-    margin-bottom: 8px;
+.recipe {
+    width: 700px;
 }
 
 .flag-img {
-    display: block;
     height: 200px;
-    margin: 0 auto;
 }
 
 .recipe-links {
@@ -53,10 +67,6 @@ h2 {
     margin: 8px auto;
 }
 
-.ingredients {
-    color: green;
-}
-
-.instructions {
-    color: red;
+.sinigang-img {
+    height: 300px;
 }
